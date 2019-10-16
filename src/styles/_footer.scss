@@ -1,0 +1,40 @@
+.footer {
+
+    // height: 50px;
+
+    margin-top: auto;
+   
+
+    .copy {
+        text-align: center;
+        font-size: 1.6rem;
+        letter-spacing: 2px;
+        padding-top: 30px;
+
+        span {
+            color: rgb(173, 14, 14);
+            font-size: 1.6rem;
+            display: inline-block;
+            animation: heart 2s ease-out infinite;
+        }
+
+        a {
+            text-decoration: none;
+            color: $color-dark;
+            font-size: 1.6rem;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            font-weight: bold;
+            border-bottom: 1px solid $color-secondary;
+
+            &:hover {
+                background-color: $color-secondary;
+                color: $color-white;
+                padding: 3px 5px;
+            }
+        }
+      }
+}
+
+
+

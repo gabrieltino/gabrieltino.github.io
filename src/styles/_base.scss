@@ -1,0 +1,49 @@
+*
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 10px;
+    @media only screen and (max-width: 600px) {
+        font-size: 9px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $color-primary;
+    font-family: $font-text;
+    font-weight: 400;
+
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    @media only screen and (max-width: 600px){
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    
+    // justify-content: center;
+    // align-items: center;
+    // width: 100px;
+}
+
+
+.mt-90 {
+    margin-top: 90px !important;
+}
+
