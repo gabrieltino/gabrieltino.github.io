@@ -34,23 +34,91 @@ export default () => (
           <div className="portfolio-card">
             <h2>
               <a
-                href="http://citycore.com.ng/app/"
+                href="http://spacextino.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                citycore.com.ng/app
+                Spacextino
               </a>
             </h2>
             <p className="tech">
               <em>
                 {" "}
-                <span>Tech Used: </span> HTML/CSS, Bootstrap, PHP
+                <span>Tech Used: </span> React, Apollo, Node.js, Express,
+                GraphQL, MongoDB
               </em>
             </p>
 
             <p className="description">
-              City Core is a finance institution that give soft loans to civil
-              servants in the quickest possible time{" "}
+              Spacextino uses the SpaceX api to display list of launches and
+              their attempt status. It also displays the rocket launch details.{" "}
+            </p>
+          </div>
+          <div className="portfolio-card">
+            <h2>
+              <a
+                href="https://https://todowithmern2.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Items Listing
+              </a>
+            </h2>
+            <p className="tech">
+              <em>
+                {" "}
+                <span>Tech Used: </span> React, Express, Node.js, Mongodb
+              </em>
+            </p>
+
+            <p className="description">
+              todowithmern2 is a shopping list app for creating lists.
+              Authentication is needed in other to access.{" "}
+            </p>
+          </div>
+          <div className="portfolio-card">
+            <h2>
+              <a
+                href="https://citycore.com.ng/app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Citycore
+              </a>
+            </h2>
+            <p className="tech">
+              <em>
+                {" "}
+                <span>Tech Used: </span> Html/Css, Bootstrap, Php
+              </em>
+            </p>
+
+            <p className="description">
+              Integrated paystack api into the app for instant and recurring
+              payments.{" "}
+            </p>
+          </div>
+
+          <div className="portfolio-card">
+            <h2>
+              <a
+                href="https://ceapoly-webtech.firebaseapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ceapoly School of science and tech
+              </a>
+            </h2>
+            <p className="tech">
+              <em>
+                {" "}
+                <span>Tech Used: </span> Html/Css, Bootstrap
+              </em>
+            </p>
+
+            <p className="description">
+              A web project in school to design a website for the school of
+              science and technology.{" "}
             </p>
           </div>
         </div>
