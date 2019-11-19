@@ -40,7 +40,7 @@ export default () => (
           </a>
           ,{" "}
           <a
-            href="https://github.com/gabrieltino"
+            href="https://github.com/sixpathdev"
             target="_blank"
             rel="noopener noreferrer"
           >
