@@ -122,6 +122,29 @@ export default () => (
               science and technology.{" "}
             </p>
           </div>
+
+          <div className="portfolio-card">
+            <h2>
+              <a
+                href="https://scis-system.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Student Complaint Information System
+              </a>
+            </h2>
+            <p className="tech">
+              <em>
+                {" "}
+                <span>Tech Used: </span> Html/Css, Bootstrap, Javascript,
+                Laravel, Blade, MySQL
+              </em>
+            </p>
+
+            <p className="description">
+              A software built for project defense in my National Diploma.{" "}
+            </p>
+          </div>
         </div>
       </div>
     </div>
