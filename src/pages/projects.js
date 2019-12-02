@@ -8,7 +8,7 @@ export default () => (
     <div className="container">
       <div className="portfolio-area">
         <h2 className="heading-main">iBuild</h2>
-        <h6>Confidential projects are not listed here</h6>
+        <h3>Confidential projects are not listed here</h3>
         <div className="porfolio">
           <div className="portfolio-card">
             <h2>
